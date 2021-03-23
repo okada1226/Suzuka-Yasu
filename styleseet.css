@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    height: 90px;
+    padding-bottom: 200px;
+}
+.header-logo {
+    float:left;
+font-size: 27px;
+letter-spacing: 2px;
+padding:130px 170px;
+}
+
+.li1 {
+    font-size: 16px;
+    list-style: none;
+    float: right;
+    padding: 142px 170px 20px 0px;
+    letter-spacing: 2px;
+}
+
+.li2 {
+    font-size: 16px;
+    list-style: none;
+    float: right;
+    padding: 142px 40px 20px 0px;
+    letter-spacing: 2px;
+}
+
+.li3 {
+    font-size: 16px;
+    list-style: none;
+    float: right;
+    padding: 142px 40px 20px 0px;
+    letter-spacing: 2px;
+}
