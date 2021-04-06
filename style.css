@@ -27,7 +27,7 @@ span {
 }
 
 body {
-  font-family: 'Roboto', "YuGothic";
+  font-family: 'Roboto', "YuGothic-light";
 }
 
 
@@ -106,8 +106,6 @@ padding-top: 20px;
   line-height: 0px;
   font-weight: 400;
   margin:0;
-  font-family: 'Roboto-bolder', "YuGothic-bolder";
-
 }
 
 .detail {
@@ -115,7 +113,6 @@ padding-top: 20px;
   font-size:14.5px;
   line-height: 24.5px;
   font-weight: 300;
-  font-family: 'Roboto-lighter', "YuGothic-lighter";
   letter-spacing: 1px;
 
 }
