@@ -342,7 +342,7 @@ padding-top: 20px;
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 43.2px;
+     padding-top: 45px;
      height: 30px;
      width: 26px;
      justify-content: center;
