@@ -398,6 +398,8 @@ padding-top: 20px;
      left: 100%;/* メニューを画面外へ */
      background: #fff;
      transition: .5s;
+     padding-bottom:0;
+     margin-bottom:0;
    }
 
    /* アイコンがクリックされたらメニューを表示 */
