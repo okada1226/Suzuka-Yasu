@@ -348,6 +348,7 @@ padding-top: 20px;
      position: relative;
      z-index: 98;/* 重なり順を一番下に */
      cursor: pointer;
+     padding-bottom:0;
    }
 
    /* ハンバーガーメニューのアイコン */
