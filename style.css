@@ -419,10 +419,7 @@ padding-top: 20px;
      left: 0;/* 閉じるための要素を画面内へ */
    }
 
-  .drawer {
-    padding:0;
-    margin:0;
-  }
+  
   
   
 .drawer-list {
