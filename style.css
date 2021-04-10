@@ -274,7 +274,7 @@ padding-top: 20px;
   header {
     width: 320px;
     margin:0 auto;
-    height: 60px;
+    height: 90px;
     padding: 0px 0px;
     }
 
@@ -339,7 +339,7 @@ padding-top: 20px;
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 45px;
+     padding-top: 44.5px;
      height: 60px;
      width: 26px;
      justify-content: center;
@@ -430,20 +430,62 @@ padding-top: 20px;
   padding-bottom: 40px;
 }
 
- .sakuhin1 {
-   width:320px;
-   text-align:center;
-  }
-   
 
 
-.image1 {
-text-align:center;
-}
+
+
 .image1 img {
-  width:320px;
-}
+    width:100%;
+  }
 
+ .image2 {
+  padding-top: 13px;
+  }
+.image2 img {
+    width:100%;
+  }
+
+   .image3 {
+  padding-top: 13px;
+  }
+.image3 img {
+    width:100%;
+  }
+
+   .image4 {
+  padding-top: 13px;
+  }
+.image4 img {
+    width:100%;
+  }
+
+   .image5 {
+  padding-top: 13px;
+  }
+.image5 img {
+    width:100%;
+  }
+
+   .image6 {
+  padding-top: 13px;
+  }
+.image6 img {
+    width:100%;
+  }
+
+   .image7 {
+  padding-top: 13px;
+  }
+.image7 img {
+    width:100%;
+  }
+
+   .image8 {
+  padding-top: 13px;
+  }
+.image8 img {
+    width:100%;
+  }
 
 
   .sakuhin-text {
