@@ -436,57 +436,10 @@ padding-top: 20px;
 
   .image1 img {
       width:320px;
-    margin:0 auto;
+    text-align : center
+    
     }
 
-   .image2 {
-    padding-top: 13px;
-    }
-  .image2 img {
-      width:100%;
-    }
-
-     .image3 {
-    padding-top: 13px;
-    }
-  .image3 img {
-      width:100%;
-    }
-
-     .image4 {
-    padding-top: 13px;
-    }
-  .image4 img {
-      width:100%;
-    }
-
-     .image5 {
-    padding-top: 13px;
-    }
-  .image5 img {
-      width:100%;
-    }
-
-     .image6 {
-    padding-top: 13px;
-    }
-  .image6 img {
-      width:100%;
-    }
-
-     .image7 {
-    padding-top: 13px;
-    }
-  .image7 img {
-      width:100%;
-    }
-
-     .image8 {
-    padding-top: 13px;
-    }
-  .image8 img {
-      width:100%;
-    }
 
 
   .sakuhin-text {
