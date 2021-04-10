@@ -22,6 +22,10 @@ a {
   font-weight: 500;
 }
 
+.br-sp {
+  display:none;
+}
+
 span {
   color: #a9a9a9;
 }
@@ -70,6 +74,10 @@ body {
 
 .work:hover {
   opacity: 0.35;
+}
+
+.drawer {
+  display: none;
 }
 
 
@@ -261,196 +269,225 @@ padding-top: 20px;
 
 }
 
-@media screen and (max-width: 725px){
-  header {
-    width: 400px;
-    margin:0 auto;
-    height: 155px;
-    background: white;
-    padding: 0px 0px;
-    box-sizing: border-box;
-    }
 
-    .header-logo p {
-      padding-top: 40px;
-      line-height: 0px;
-      font-size: 23.5px;
-      letter-spacing: 2px;
-      font-weight: 500;
-      float:none;
-    }
-
-.ul {
-  text-align: center;
-}
-
-    .header-list {
-      padding-top:15px;
-      padding-left:40px;
-      display: inline-block;
-      padding-bottom:50px;
-
-    }
-
-    .contact, .biography, .work {
-        padding-top: 3px;
-        font-size: 17px;
-        color: #a9a9a9;
-        font-weight: 500;
-        color: :#C0C0C0;
-        line-height: :0px;
-    }
-    .slash1, .slash2 {
-      font-size: 22px;
-      padding-right:10px;
-      font-weight: 300;
-    line-height: :0px;
-    }
-
-    .image1 img {
-      width:600px;
-    }
-  .image2 img {
-      width:600px;
-    }
-  .image3 img {
-      width:600px;
-    }
-  .image4 img {
-      width:600px;
-    }
-  .image5 img {
-      width:600px;
-    }
-  .image6 img {
-      width:600px;
-    }
-  .image7 img {
-      width:600px;
-    }
-  .image8 img {
-      width:600px;
-    }
-  
-  
-  
-  
-  
-    .sakuhin-text {
-      width:600px;
-    }
-
-
-}
 
 @media screen and (max-width: 400px){
   header {
     width: 320px;
     margin:0 auto;
-    height: 110px;
-    background: white;
+    height: 70px;
     padding: 0px 0px;
     }
 
-  .span {
-  line-height: 0px;
-  }
+.header-logo {
+  padding-top: 0;
+}
+
     .header-logo p {
-      padding-top: 35px;
+      padding-top: 18px;
       line-height: 0px;
-      font-size: 21px;
-      letter-spacing: 0.25px;
+      font-size: 18px;
+      letter-spacing: 0.5px;
       font-weight: 500;
-      float:none;
+      float:left;
       padding-bottom: 0px;
-      margin-bottom: 0px;
+      margin: 0px;
 
     }
+
+.header-logo p::first-line {
+  line-height: 40px;
+}
+
+
+
+
       .header-logo span {
         line-height: 0px;
         float:none;
         padding-bottom: 0px;
         margin-bottom: 0px;
+
       }
+
+      .br-sp {
+        display:block;
+      }
+
+
 
       .header-list {
-        padding-top:22.5px;
-        padding-bottom:50px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 7.1px;
+        display: none;
       }
 
-      .contact, .biography, .work {
-          padding-top: 3px;
-          font-size: 15px;
-          color: #a9a9a9;
-          font-weight: 500;
-          color: :#C0C0C0;
-          line-height: :0px;
-      }
-      .slash1, .slash2 {
-        font-size: 19px;
-        padding-right:10px;
-        font-weight: 300;
-      line-height: :0px;
-      }height: :0px;
-    }
-  
-  
+
+   /*------------------------------
+
+     ここから下がハンバーガーメニュー
+     に関するCSS
+
+   ------------------------------*/
+.drawer{
+  display: block;
+  margin: 0;
+}
+   /* チェックボックスは非表示に */
+   .drawer-hidden {
+     display: none;
+   }
+
+   /* ハンバーガーアイコンの設置スペース */
+   .drawer-open {
+     display: flex;
+     float:right;
+     padding-top: 41.5px;
+     height: 60px;
+     width: 26px;
+     justify-content: center;
+     position: relative;
+     z-index: 98;/* 重なり順を一番下に */
+     cursor: pointer;
+   }
+
+   /* ハンバーガーメニューのアイコン */
+   .drawer-open span,
+   .drawer-open span:before,
+   .drawer-open span:after {
+     content: '';
+     display: block;
+     height: 3px;
+     width: 25px;
+     border-radius: 3px;
+     background: #808080;
+     transition: 0.5s;
+     position: absolute;
+   }
+
+   /* 三本線のうち一番上の棒の位置調整 */
+   .drawer-open span:before {
+     bottom: 10px;
+   }
+
+   /* 三本線のうち一番下の棒の位置調整 */
+   .drawer-open span:after {
+     top: 10px;
+   }
+   /* アイコンがクリックされたら真ん中の線を透明にする */
+   #drawer-check:checked ~ .drawer-open span {
+     background: rgba(255, 255, 255, 0);
+   }
+
+   /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+   #drawer-check:checked ~ .drawer-open span::before {
+     bottom: 0;
+     transform: rotate(45deg);
+   }#drawer-check:checked ~ .drawer-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+   /* メニューのデザイン*/
+   .drawer-content {
+     width: 100%;/* ここの割合を小さくすると閉じる部分の領域が広がる */
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 100%;/* メニューを画面外へ */
+     background: #fff;
+     transition: .5s;
+   }
+
+   /* アイコンがクリックされたらメニューを表示 */
+   #drawer-check:checked ~ .drawer-content {
+     left: 0;/* メニューを画面内へ */
+   }
+
+   /* メニューを閉じるための要素のデザイン*/
+   .drawer-close {
+     width: 100%;
+     height: 100%;
+     background: red;
+    position: relative;
+     left: 100%;/* 閉じるための要素を画面外へ */
+     z-index: 99;/* 重なり順をメニューより下に*/
+     transition: .5s;
+   }
+
+   #drawer-check:checked ~ .drawer-close {
+     left: 0;/* 閉じるための要素を画面内へ */
+   }
+
+.drawer-list {
+  position: absolute;
+  margin: 0;
+  padding-left: 35px;
+  padding-top:35px;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 55px;
+  font-size:30px;
+  letter-spacing: 1px;
+  bottom: 0;
+  padding-bottom: 40px;
+}
+
+
+
+
+
   .image1 img {
       width:100%;
     }
-  
+
    .image2 {
     padding-top: 13px;
     }
   .image2 img {
       width:100%;
     }
-  
+
      .image3 {
     padding-top: 13px;
     }
   .image3 img {
       width:100%;
     }
-  
+
      .image4 {
     padding-top: 13px;
     }
   .image4 img {
       width:100%;
     }
-  
+
      .image5 {
     padding-top: 13px;
     }
   .image5 img {
       width:100%;
     }
-  
+
      .image6 {
     padding-top: 13px;
     }
   .image6 img {
       width:100%;
     }
-  
+
      .image7 {
     padding-top: 13px;
     }
   .image7 img {
       width:100%;
     }
-  
+
      .image8 {
     padding-top: 13px;
     }
   .image8 img {
       width:100%;
     }
-  
+
 
   .sakuhin-text {
       padding-top:30px;
@@ -483,7 +520,6 @@ padding-top: 20px;
   font-size:15px;
   padding-bottom:70px;
   font-weight:500;
-
 }
 
 
