@@ -274,7 +274,7 @@ padding-top: 20px;
   header {
     width: 320px;
     margin:0 auto;
-    height: 70px;
+    height: 60px;
     padding: 0px 0px;
     }
 
@@ -283,10 +283,10 @@ padding-top: 20px;
 }
 
     .header-logo p {
-      padding-top: 18px;
+      padding-top: 15px;
       line-height: 0px;
-      font-size: 18px;
-      letter-spacing: 0.5px;
+      font-size: 20px;
+      letter-spacing: 1px;
       font-weight: 700;
       float:left;
       padding-bottom: 0px;
@@ -295,7 +295,7 @@ padding-top: 20px;
     }
 
 .header-logo p::first-line {
-  line-height: 40px;
+  line-height: 47px;
 }
 
 
@@ -339,7 +339,7 @@ padding-top: 20px;
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 43.5px;
+     padding-top: 45px;
      height: 60px;
      width: 26px;
      justify-content: center;
