@@ -433,12 +433,12 @@ padding-top: 20px;
 
 
 
-
-  .image1 img {
-      width:320px;
-    text-align : center
-    
-    }
+.image1 {
+text-align:center;
+}
+.image1 img {
+  width:320px;
+}
 
 
 
