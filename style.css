@@ -159,6 +159,7 @@ padding-top: 20px;
 }
 
 .title {
+  font-weight:bolder;
   font-size:16px;
   letter-spacing: 1.5px;
   line-height: 0px;
@@ -274,7 +275,7 @@ padding-top: 20px;
   header {
     width: 320px;
     margin:0 auto;
-    height: 90px;
+    height: 70px;
     padding: 0px 0px;
     }
 
