@@ -286,7 +286,7 @@ padding-top: 20px;
 }
 
     .header-logo p {
-      padding-top: 12px;
+      padding-top: 14px;
       line-height: 0px;
       font-size: 20px;
       letter-spacing: 1px;
@@ -342,7 +342,7 @@ padding-top: 20px;
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 40.5px;
+     padding-top: 42.5px;
      height: 30px;
      width: 26px;
      justify-content: center;
