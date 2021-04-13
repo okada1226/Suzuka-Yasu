@@ -286,7 +286,7 @@ padding-top: 20px;
 }
 
     .header-logo p {
-      padding-top: 14px;
+      padding-top: 13px;
       line-height: 0px;
       font-size: 20px;
       letter-spacing: 1px;
@@ -298,7 +298,7 @@ padding-top: 20px;
     }
 
 .header-logo p::first-line {
-  line-height: 44px;
+  line-height: 43px;
 }
 
 
