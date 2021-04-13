@@ -275,7 +275,7 @@ padding-top: 20px;
   header {
     width: 320px;
     margin:0 auto;
-    height: 74px;
+    height: 68px;
     padding: 0px 0px;
     padding-bottoms:0;
     margin-bottoms:0;
@@ -286,7 +286,7 @@ padding-top: 20px;
 }
 
     .header-logo p {
-      padding-top: 15px;
+      padding-top: 12px;
       line-height: 0px;
       font-size: 20px;
       letter-spacing: 1px;
@@ -342,7 +342,7 @@ padding-top: 20px;
    .drawer-open {
      display: flex;
      float:right;
-     padding-top: 44px;
+     padding-top: 41px;
      height: 30px;
      width: 26px;
      justify-content: center;
