@@ -264,7 +264,7 @@ padding-top: 20px;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 767px){
   header {
     width: 320px;
     margin:0 auto;
@@ -380,9 +380,9 @@ padding-top: 20px;
      left: 0;
    }
 
-  
-  
-  
+
+
+
 .drawer-list {
   position: absolute;
   margin: 0;
@@ -479,11 +479,11 @@ padding-top: 20px;
       text-justify: inter-ideograph;
       line-height:25px;
     }
-    
+
     .br-pc {
       display: none;
     }
-    
+
   .back {
   padding-top:50px;
   padding-left:0px;
