@@ -495,7 +495,7 @@ padding-top: 20px;
 
 @media (orientation: landscape) and (max-width: 767px){
   header {
-    width: 500px;
+    width: 700px;
     margin:0 auto;
     height: 87px;
     padding: 0px 0px;
@@ -503,195 +503,9 @@ padding-top: 20px;
     margin-bottoms:0;
     }
 
-.header-logo {
-  padding-top: 0;
-}
-
-    .header-logo p {
-      padding-top: 13.5px;
-      line-height: 0px;
-      font-size: 20px;
-      letter-spacing: 1px;
-      font-weight: 700;
-      float:left;
-      padding-bottom: 0px;
-      margin: 0px;
-    }
-
-.header-logo p::first-line {
-  line-height: 42px;
-}
-
-      .header-logo span {
-        line-height: 0px;
-        float:none;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-      }
-
-      .br-sp {
-        display:block;
-      }
-
-      .header-list {
-        display: none;
-      }
-
-.drawer{
-  display: block;
-  margin: 0;
-}
-
-   .drawer-hidden {
-     display: none;
-   }
-
-   .drawer-open {
-     display: flex;
-     float:right;
-     padding-top: 43px;
-     height: 30px;
-     width: 26px;
-     justify-content: center;
-     position: relative;
-     z-index: 98;
-     cursor: pointer;
-     padding-bottom:0;
-     margin:0;
-   }
-
-   .drawer-open span,
-   .drawer-open span:before,
-   .drawer-open span:after {
-     content: '';
-     display: block;
-     height: 4px;
-     width: 25px;
-     border-radius: 3px;
-     background: #808080;
-     transition: 0.5s;
-     position: absolute;
-   }
-
-   .drawer-open span:before {
-     bottom: 10px;
-   }
-
-   .drawer-open span:after {
-     top: 10px;
-   }
-
-   #drawer-check:checked ~ .drawer-open span {
-     background: rgba(255, 255, 255, 0);
-   }
-
-   #drawer-check:checked ~ .drawer-open span::before {
-     bottom: 0;
-     transform: rotate(45deg);
-   }#drawer-check:checked ~ .drawer-open span::after {
-  top: 0;
-  transform: rotate(-45deg);
-}
-
-   .drawer-content {
-     width: 100%;
-     height: 100%;
-     position: fixed;
-     top: 0;
-     left: 100%;
-     background: #fff;
-     transition: .5s;
-     margin:0;
-     padding:0;
-   }
-
-   #drawer-check:checked ~ .drawer-content {
-     left: 0;
-   }
-
-
-
-
-.drawer-list {
-  position: absolute;
-  margin: 0;
-  padding-left: 35px;
-  padding-top:35px;
-  list-style: none;
-  font-family: "Roboto";
-  font-weight: 700;
-  line-height: 55px;
-  font-size:30px;
-  letter-spacing: 1px;
-  bottom: 0;
-  padding-bottom: 40px;
-}
-
-.image1 {
-  padding-top:0;
-  margin:0;
-  }
-
-
-
-.image1 img {
-  padding-top:0;
-  margin:0;
-    width:100%;
-  }
-
- .image2 {
-  padding-top: 13px;
-  }
-.image2 img {
-    width:100%;
-  }
-
-   .image3 {
-  padding-top: 13px;
-  }
-.image3 img {
-    width:100%;
-  }
-
-   .image4 {
-  padding-top: 13px;
-  }
-.image4 img {
-    width:100%;
-  }
-
-   .image5 {
-  padding-top: 13px;
-  }
-.image5 img {
-    width:100%;
-  }
-
-   .image6 {
-  padding-top: 13px;
-  }
-.image6 img {
-    width:100%;
-  }
-
-   .image7 {
-  padding-top: 13px;
-  }
-.image7 img {
-    width:100%;
-  }
-
-   .image8 {
-  padding-top: 13px;
-  }
-.image8 img {
-    width:100%;
-  }
-
   .sakuhin-text {
       padding-top:30px;
-      width:600px;
+      width:700px;
     }
 
     .title {
@@ -709,18 +523,7 @@ padding-top: 20px;
       line-height:25px;
     }
 
-    .br-pc {
-      display: none;
-    }
 
-  .back {
-  padding-top:50px;
-  padding-left:0px;
-  text-align: center;
-  font-size:15px;
-  padding-bottom:70px;
-  font-weight:500;
-}
 
 
 }
