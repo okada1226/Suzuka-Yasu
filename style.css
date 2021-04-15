@@ -518,8 +518,6 @@ padding-top: 20px;
   .detail {
       margin-top:12px;
       margin-bottom: :20px;
-      text-align: justify;
-      text-justify: inter-ideograph;
       line-height:25px;
     }
 
