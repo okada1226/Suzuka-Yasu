@@ -691,7 +691,7 @@ padding-top: 20px;
 
   .sakuhin-text {
       padding-top:30px;
-      width:500px;
+      width:600px;
     }
 
     .title {
@@ -702,7 +702,7 @@ padding-top: 20px;
     }
 
   .detail {
-      margin-top:12.5px;
+      margin-top:12px;
       margin-bottom: :20px;
       text-align: justify;
       text-justify: inter-ideograph;
