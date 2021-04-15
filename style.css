@@ -32,6 +32,8 @@ span {
 
 body {
   font-family: "helvetica", "YuGothic", "sans-serif";
+  -webkit-text-size-adjust: 100%;
+
 }
 
 .header-list {
